@@ -11,7 +11,7 @@ You can install them by running `sudo dnf install git aria2 patch`
     
 ## How to Patch:
 
-1. Download or Clone this repository: `git clone https://github.com/chitholian/DNF-Faster.git`
+1. Download or Clone this repository: `git clone https://github.com/daemonspudguy/DNF-Faster.git`
 2. Enter the new directory: `cd DNF-Faster`
 3. Run the patch: `sudo patch -p0 -d/ -b < dnf-faster.patch`
 4. Congrats! You got it. You can now do `dnf update`, `dnf upgrade`, `dnf install` etc. `aria2` will download most of the (if not all) target packages using parallel multiconnection.
